@@ -1,0 +1,16 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+faiss-cpu==1.12.0
+langchain==1.0.3
+langchain-community==0.4.1
+langchain-core==1.0.3
+langchain-text-splitters==1.0.0
+sentence-transformers==5.1.2
+huggingface-hub==0.36.0
+langdetect==1.0.9
+googletrans
+pydantic==2.12.4
+numpy==1.26.4
+python-dotenv==1.0.0
+requests==2.32.5

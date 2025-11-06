@@ -33,6 +33,11 @@ jobs:
       run: |
         python -c "from app.main import app; print('✅ App imports successfully')"
     
+    - name: Clean up Docker to free space
+      run: |
+        docker system prune -af --volumes || true
+        df -h
+    
     - name: Build Docker image
       run: |
         docker build -t healthcare-rag:test .
